@@ -143,15 +143,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524585101461</updated>
-      <workItem from="1524585103641" duration="1018000" />
+      <workItem from="1524585103641" duration="1616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1018000" />
+    <option name="totallyTimeSpent" value="1616000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -204,7 +204,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
