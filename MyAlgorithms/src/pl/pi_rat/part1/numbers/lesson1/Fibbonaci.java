@@ -1,4 +1,4 @@
-package pl.pi_rat.part1.numbers;
+package pl.pi_rat.part1.numbers.lesson1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,8 +11,8 @@ public class Fibbonaci {
         for(int i = 1; fibList.size()<=20;i++){
 
                 fibList.add(fibList.get(i-1)+fibList.get(i));
-                System.out.println(fibList.get(fibList.size()-1));
 
         }
+        System.out.println(fibList);
     }
 }

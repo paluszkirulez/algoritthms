@@ -1,4 +1,4 @@
-package pl.pi_rat.part1.numbers;
+package pl.pi_rat.part1.numbers.lesson1;
 
 import java.util.ArrayList;
 import java.util.List;
