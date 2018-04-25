@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a66df18-a86b-45e0-b7aa-70033e1eb0a5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/DrawTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/diagonalStars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson2/datastructures/Streams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson2/datastructures/spojPrimes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/numbers/lesson1/Fibbonaci.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/Fibbonaci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/numbers/lesson1/HundredsTens.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/HundredsTens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/numbers/lesson1/evennumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/evennumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/numbers/lesson1/oddnumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/oddnumbers.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="oddnumbers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/oddnumbers.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="drawX.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="drawX.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawX.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -73,6 +62,32 @@
               <folding>
                 <element signature="e#118#119#0" expanded="true" />
                 <element signature="e#143#144#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Streams.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson2/datastructures/Streams.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="35" column="74" lean-forward="true" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spojPrimes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson2/datastructures/spojPrimes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,6 +174,8 @@
         <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/diagonalStars.java" />
         <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawRectangle.java" />
         <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawX.java" />
+        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson2/datastructures/Streams.java" />
+        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson2/datastructures/spojPrimes.java" />
       </list>
     </option>
   </component>
@@ -213,7 +230,7 @@
               <item name="MyAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pi_rat" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson1" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -221,8 +238,8 @@
               <item name="MyAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pi_rat" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson1" type="462c0819:PsiDirectoryNode" />
-              <item name="figuresdrawing" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,14 +274,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.drawX">
-    <configuration name="DrawX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.part1.main.lesson1.figuresdrawing.DrawX" />
+  <component name="RunManager" selected="Application.spojPrimes">
+    <configuration name="Streams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.part1.main.lesson2.datastructures.Streams" />
       <module name="MyAlgorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.pi_rat.part1.main.lesson1.figuresdrawing.*" />
+          <option name="PATTERN" value="pl.pi_rat.part1.main.lesson2.datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,13 +322,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="evennumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.part1.main.lesson1.lesson1.numbers.evennumbers" />
+    <configuration name="spojPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.part1.main.lesson2.datastructures.spojPrimes" />
       <module name="MyAlgorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.pi_rat.part1.main.lesson1.lesson1.numbers.*" />
+          <option name="PATTERN" value="pl.pi_rat.part1.main.lesson2.datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,19 +372,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.evennumbers" />
-      <item itemvalue="Application.DrawX" />
       <item itemvalue="Application.diagonalStars" />
       <item itemvalue="Application.drawRectangle" />
       <item itemvalue="Application.drawX" />
+      <item itemvalue="Application.Streams" />
+      <item itemvalue="Application.spojPrimes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.spojPrimes" />
+        <item itemvalue="Application.Streams" />
         <item itemvalue="Application.drawX" />
         <item itemvalue="Application.drawRectangle" />
         <item itemvalue="Application.diagonalStars" />
-        <item itemvalue="Application.DrawX" />
-        <item itemvalue="Application.evennumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -381,12 +398,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524585101461</updated>
-      <workItem from="1524585103641" duration="10431000" />
+      <workItem from="1524585103641" duration="19101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10431000" />
+    <option name="totallyTimeSpent" value="19101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -394,7 +411,7 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32888147" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -406,7 +423,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -500,17 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/oddnumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#150#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/DrawTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -533,6 +539,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/oddnumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#150#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawRectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -544,13 +572,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawX.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/stream/IntStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="124">
+          <caret line="770" column="28" selection-start-line="770" selection-start-column="28" selection-end-line="770" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson2/datastructures/Streams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="35" column="74" lean-forward="true" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
           <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson2/datastructures/spojPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
           </folding>
         </state>
       </provider>
