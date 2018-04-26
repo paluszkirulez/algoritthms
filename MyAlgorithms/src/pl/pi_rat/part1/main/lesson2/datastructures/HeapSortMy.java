@@ -3,11 +3,21 @@ package pl.pi_rat.part1.main.lesson2.datastructures;
 public class HeapSortMy implements SortAlgorithm {
 
     @Override
-    public void sort(int[] array, boolean ascending) {
+    public void sort(int[] array, boolean a) {
         int dlugoscTablicy = array.length;
         for(int i =dlugoscTablicy/2 - 1;i>=0;i--){
             budujKopiec(array, dlugoscTablicy,i);
 
+        }
+        for (int i=dlugoscTablicy - 1;i>=0;i--){
+            int temp=array[0];
+            array[0]=array[i];
+            array[i]=temp;
+            budujKopiec(array,i,0);
+        }
+
+        for(int i : array){
+            System.out.println(i);
         }
 
     }
@@ -30,4 +40,6 @@ public class HeapSortMy implements SortAlgorithm {
 
 
     }
+
+
 }
