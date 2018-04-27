@@ -7,6 +7,10 @@ public class NaiveSearch implements SearchAlgorithm {
 
     @Override
     public int search(String array, String value, boolean caseSensitive) {
+        if(array.length()==0 || value.length()==0){
+            return -1;
+        }
+
         List<Character> myArray = new ArrayList<>();
         List<Character> mySearch = new ArrayList<>();
         if(!caseSensitive){
@@ -18,9 +22,10 @@ public class NaiveSearch implements SearchAlgorithm {
         }
         for (char c : value.toCharArray()) {
             mySearch.add(c);
-            //System.out.println(c);
-        }
 
+        }
+        //System.out.println(myArray);
+        //System.out.println(mySearch);
         int position = -1;
 
 
@@ -30,11 +35,9 @@ public class NaiveSearch implements SearchAlgorithm {
             if (myArray.get(i) == mySearch.get(0)) {
                 equals = true;
                 for (int k = 1; k < mySearch.size(); k++) {
-
+                    //System.out.println(myArray.get(i+k).toString());
                     if (myArray.get(i + k) == mySearch.get(k)) {
-
                         equals = true;
-
                     } else {
                         equals = false;
                         break;
@@ -43,9 +46,8 @@ public class NaiveSearch implements SearchAlgorithm {
                 }
                 if (equals) {
                     position = i;
-
                 }
-                return position;
+                //return position;
             }
         }
 
