@@ -6,9 +6,13 @@ import java.util.List;
 public class NaiveSearch implements SearchAlgorithm {
 
     @Override
-    public int search(String array, String value) {
+    public int search(String array, String value, boolean caseSensitive) {
         List<Character> myArray = new ArrayList<>();
         List<Character> mySearch = new ArrayList<>();
+        if(!caseSensitive){
+            array = array.toLowerCase();
+            value = value.toLowerCase();
+        }
         for (char c : array.toCharArray()) {
             myArray.add(c);
         }
@@ -21,8 +25,8 @@ public class NaiveSearch implements SearchAlgorithm {
 
 
         for (int i = 0; i < myArray.size() - mySearch.size() + 1; i++) {
-            boolean equals = false;
-            
+            boolean equals;
+
             if (myArray.get(i) == mySearch.get(0)) {
                 equals = true;
                 for (int k = 1; k < mySearch.size(); k++) {
