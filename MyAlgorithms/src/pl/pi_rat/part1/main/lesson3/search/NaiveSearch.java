@@ -24,8 +24,7 @@ public class NaiveSearch implements SearchAlgorithm {
             mySearch.add(c);
 
         }
-        //System.out.println(myArray);
-        //System.out.println(mySearch);
+
         int position = -1;
 
 
@@ -36,9 +35,7 @@ public class NaiveSearch implements SearchAlgorithm {
                 equals = true;
                 for (int k = 1; k < mySearch.size(); k++) {
                     //System.out.println(myArray.get(i+k).toString());
-                    if (myArray.get(i + k) == mySearch.get(k)) {
-                        equals = true;
-                    } else {
+                    if (myArray.get(i + k) != mySearch.get(k)) {
                         equals = false;
                         break;
                     }
@@ -47,7 +44,7 @@ public class NaiveSearch implements SearchAlgorithm {
                 if (equals) {
                     position = i;
                 }
-                //return position;
+
             }
         }
 
