@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a66df18-a86b-45e0-b7aa-70033e1eb0a5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/DrawTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/diagonalStars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawX.java" afterDir="false" />
+    <list default="true" id="44cddad1-112c-4ff1-bf08-a1177fd0f768" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/FrogRiverOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/OddOccurenciesInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/PermMissingElem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/PermutationCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/TapeEquilibrium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/XtoYquick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/shoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/algorithms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/numbers/lesson1/Fibbonaci.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/Fibbonaci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/numbers/lesson1/HundredsTens.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/HundredsTens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/numbers/lesson1/evennumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/evennumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/numbers/lesson1/oddnumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/oddnumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyAlgorithms/MyAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyAlgorithms/MyAlgorithms.iml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,95 +26,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="oddnumbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/oddnumbers.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="OddOccurenciesInArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/OddOccurenciesInArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#150#159#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="22" column="9" selection-start-line="13" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawTriangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/DrawTriangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-              <folding>
-                <element signature="e#118#119#0" expanded="true" />
-                <element signature="e#137#138#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diagonalStars.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/diagonalStars.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="17" selection-end-column="9" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#156#157#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="drawX.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawX.java">
+      <file leaf-file-name="PermMissingElem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/PermMissingElem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding>
-                <element signature="e#118#119#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-              </folding>
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="drawRectangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawRectangle.java">
+      <file leaf-file-name="XtoYquick.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/XtoYquick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HundredsTens.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/HundredsTens.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#152#161#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fibbonaci.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/Fibbonaci.java">
+      <file leaf-file-name="TapeEquilibrium.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/TapeEquilibrium.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,11 +66,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="evennumbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/evennumbers.java">
+      <file leaf-file-name="PermutationCheck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/PermutationCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="9" selection-start-line="15" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/Dice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shoes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/shoes.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrogRiverOne.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/FrogRiverOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,84 +126,61 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/main/Fibbonaci.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/oddnumbers.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/numbers/evennumbers.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/numbers/HundredsTens.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/numbers/Fibbonaci.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/numbers/lesson1/Fibbonaci.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/numbers/lesson1/evennumbers.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/Lesson1.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/Fibbonaci.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/numbers/oddnumbers.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/lesson1/numbers/oddnumbers.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/oddnumbers.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/DrawX.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/diagonalStars.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawRectangle.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawX.java" />
+        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/test.java" />
+        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/PermMissingElem.java" />
+        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/XtoYquick.java" />
+        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/TapeEquilibrium.java" />
+        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/PermutationCheck.java" />
+        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/Dice.java" />
+        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/shoes.java" />
+        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/FrogRiverOne.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="698" />
+    <option name="x" value="1908" />
+    <option name="y" value="-14" />
+    <option name="width" value="1932" />
+    <option name="height" value="1032" />
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="algoritthms" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="algoritthms" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="algoritthms" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pi_rat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="MyAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pi_rat" type="462c0819:PsiDirectoryNode" />
               <item name="lesson1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="algoritthms" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pi_rat" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson1" type="462c0819:PsiDirectoryNode" />
+              <item name="codility_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algoritthms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lesson1" type="462c0819:PsiDirectoryNode" />
               <item name="figuresdrawing" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -228,22 +188,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -257,14 +206,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.drawX">
-    <configuration name="DrawX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.part1.main.lesson1.figuresdrawing.DrawX" />
+  <component name="RunManager" selected="Application.FrogRiverOne">
+    <configuration name="Dice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.part1.main.lesson1.codility_tests.Dice" />
       <module name="MyAlgorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.pi_rat.part1.main.lesson1.figuresdrawing.*" />
+          <option name="PATTERN" value="pl.pi_rat.part1.main.lesson1.codility_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FrogRiverOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.part1.main.lesson1.codility_tests.FrogRiverOne" />
+      <module name="MyAlgorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.pi_rat.part1.main.lesson1.codility_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PermutationCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.part1.main.lesson1.codility_tests.PermutationCheck" />
+      <module name="MyAlgorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.pi_rat.part1.main.lesson1.codility_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TapeEquilibrium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.part1.main.lesson1.codility_tests.TapeEquilibrium" />
+      <module name="MyAlgorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.pi_rat.part1.main.lesson1.codility_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,46 +254,13 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="diagonalStars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.part1.main.lesson1.figuresdrawing.diagonalStars" />
+    <configuration name="shoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.part1.main.lesson1.codility_tests.shoes" />
       <module name="MyAlgorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.pi_rat.part1.main.lesson1.figuresdrawing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="drawRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.part1.main.lesson1.figuresdrawing.drawRectangle" />
-      <module name="MyAlgorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.pi_rat.part1.main.lesson1.figuresdrawing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="drawX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.part1.main.lesson1.figuresdrawing.drawX" />
-      <module name="MyAlgorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.pi_rat.part1.main.lesson1.figuresdrawing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="evennumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.part1.main.lesson1.lesson1.numbers.evennumbers" />
-      <module name="MyAlgorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.pi_rat.part1.main.lesson1.lesson1.numbers.*" />
+          <option name="PATTERN" value="pl.pi_rat.part1.main.lesson1.codility_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,19 +304,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.evennumbers" />
-      <item itemvalue="Application.DrawX" />
-      <item itemvalue="Application.diagonalStars" />
-      <item itemvalue="Application.drawRectangle" />
-      <item itemvalue="Application.drawX" />
+      <item itemvalue="Application.TapeEquilibrium" />
+      <item itemvalue="Application.PermutationCheck" />
+      <item itemvalue="Application.Dice" />
+      <item itemvalue="Application.shoes" />
+      <item itemvalue="Application.FrogRiverOne" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.drawX" />
-        <item itemvalue="Application.drawRectangle" />
-        <item itemvalue="Application.diagonalStars" />
-        <item itemvalue="Application.DrawX" />
-        <item itemvalue="Application.evennumbers" />
+        <item itemvalue="Application.FrogRiverOne" />
+        <item itemvalue="Application.shoes" />
+        <item itemvalue="Application.Dice" />
+        <item itemvalue="Application.PermutationCheck" />
+        <item itemvalue="Application.TapeEquilibrium" />
       </list>
     </recent_temporary>
   </component>
@@ -376,281 +325,208 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3a66df18-a86b-45e0-b7aa-70033e1eb0a5" name="Default" comment="" />
-      <created>1524585101461</created>
+      <changelist id="44cddad1-112c-4ff1-bf08-a1177fd0f768" name="Default" comment="" />
+      <created>1524660558005</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1524585101461</updated>
-      <workItem from="1524585103641" duration="10431000" />
+      <updated>1524660558005</updated>
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10431000" />
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32888147" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32883435" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.466541" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39899832" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32888147" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.24962178" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39899832" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Messages" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-    </layout-to-restore>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/shoes.java</url>
+          <line>12</line>
+          <properties class="pl.pi_rat.part1.main.lesson1.codility_tests.shoes" method="solution">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/shoes.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/shoes.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/shoes.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/Lesson1.java">
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/OddOccurenciesInArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="374">
+          <caret line="22" column="9" selection-start-line="13" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/evennumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/Fibbonaci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/HundredsTens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#152#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/numbers/oddnumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#150#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/DrawTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/diagonalStars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawRectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/figuresdrawing/drawX.java">
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/PermMissingElem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/XtoYquick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/TapeEquilibrium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="29" />
           <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>algorithms</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/PermutationCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/Dice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/shoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/OddOccurenciesInArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="9" selection-start-line="13" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/PermMissingElem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/XtoYquick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/TapeEquilibrium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/PermutationCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="9" selection-start-line="15" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/shoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/Dice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson1/codility_tests/FrogRiverOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
