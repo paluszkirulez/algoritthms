@@ -16,14 +16,13 @@ public class FrogRiverOne {
         List<Integer> myList = new ArrayList<>();
         for(int i= 0;i<A.length;i++){
             if(!myList.contains(A[i]) && A[i]<=X){
-                //System.out.println(A[i]);
                 myList.add(A[i]);
-                //System.out.println(myList.size());
-            }
-            if (myList.size()==X){
-                return i;
+                if (myList.size()==X){
+                    return i;
 
-            }
+                }
+                }
+
         }
         return -1;
     }
