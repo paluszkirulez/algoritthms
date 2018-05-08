@@ -68,8 +68,6 @@ public class Stack {
         Stack tmpStack = new Stack();
         int first = 1;
         while (this.peek() != null) {
-            //System.out.println(this.size);
-            //StackElement tmpEl = tmpStack.peek();
 
             tmpStack.push(this.pop());
             if (first == 1){
@@ -79,17 +77,47 @@ public class Stack {
 
         }
         return tmpStack;
-
-
     }
-    StackElement reverse(StackElement myEl){
-        StackElement tmpEl = myEl;
-        myEl = myEl.previousElement;
-        return tmpEl;
 
-    }
-    void sort(){
 
+
+
+    Stack sort(){
+        Stack tmpStack = new Stack();
+        Stack tmpStack2 = new Stack();
+        tmpStack.push(this.pop());
+        tmpStack2.push(this.pop());
+        int i = 0;
+        while(i <100){
+            if(tmpStack2.peek() != null && tmpStack.peek().element>tmpStack2.peek().element){
+                tmpStack.push(tmpStack2.pop());
+            }
+            if(this.peek() != null && tmpStack.peek().element>this.peek().element){
+                tmpStack.push(this.pop());
+            }
+            if(tmpStack.peek() != null && this.peek().element>tmpStack.peek().element){
+                this.push(tmpStack.pop());
+            }
+            if(tmpStack2.peek() != null && this.peek().element>tmpStack2.peek().element){
+                this.push(tmpStack2.pop());
+            }
+            if(tmpStack.peek() != null && tmpStack2.peek().element>tmpStack.peek().element){
+                tmpStack2.push(tmpStack.pop());
+            }
+            if(this.peek() != null && tmpStack2.peek().element>this.peek().element){
+                tmpStack2.push(this.pop());
+            }
+            i++;
+            System.out.println(tmpStack);
+            System.out.println(tmpStack2);
+
+
+        }
+
+
+
+
+        return tmpStack;
     }
 
     @Override
