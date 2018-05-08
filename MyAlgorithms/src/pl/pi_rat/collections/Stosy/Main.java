@@ -9,7 +9,12 @@ public class Main {
         myStack.push(new StackElement(33));
         myStack.push(new StackElement(34));
         myStack.push(new StackElement(35));
+        //myStack.push(null);
+        //myStack.peekAll();
+        //myStack.reversAdd();
         myStack.peekAll();
+        Stack reversedStack = myStack.reversAdd();
+        reversedStack.peekAll();
         /*System.out.println(myStack.peek());
         myStack.pop();
         System.out.println(myStack.peek());
@@ -18,6 +23,9 @@ public class Main {
         myStack.pop();
         System.out.println(myStack.peek());
         myStack.pop();
-        System.out.println(myStack.peek());*/
+        System.out.println(myStack.peek());
+        myStack.pop();
+        myStack.pop();*/
+
     }
 }

@@ -8,7 +8,8 @@ public class Stack {
         return size==0;
     }
     void push(StackElement element){
-        if(this.isEmpty()){
+        if(element== null){}
+        else if(this.isEmpty()){
             this.topElement = element;
             this.size++;
         }
@@ -47,14 +48,14 @@ public class Stack {
             StackElement tmpTop = this.topElement;
             this.topElement = this.topElement.previousElement;
             this.previousElement = this.topElement.previousElement;
-            //this.previousElement = this.topElement.previousElement;
-            //System.out.println(size);
+
             this.size--;
             return tmpTop;
-        } else if(this.size ==1){
+         } else if(this.size ==1){
+            StackElement tmpTop = this.topElement;
             this.topElement = null;
             this.size--;
-            return this.topElement;
+            return tmpTop;
 
         }else  {
             return null;
@@ -63,4 +64,38 @@ public class Stack {
     }
 
 
+    Stack reversAdd() {
+        Stack tmpStack = new Stack();
+        int first = 1;
+        while (this.peek() != null) {
+            //System.out.println(this.size);
+            //StackElement tmpEl = tmpStack.peek();
+
+            tmpStack.push(this.pop());
+            if (first == 1){
+                tmpStack.peek().previousElement = null;
+                first = first-1;
+            }
+
+        }
+        return tmpStack;
+
+
+    }
+    StackElement reverse(StackElement myEl){
+        StackElement tmpEl = myEl;
+        myEl = myEl.previousElement;
+        return tmpEl;
+
+    }
+    void sort(){
+
+    }
+
+    @Override
+    public String toString() {
+        return "Stack{" +
+                "topElement=" + topElement +
+                '}';
+    }
 }
