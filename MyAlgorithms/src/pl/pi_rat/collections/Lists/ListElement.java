@@ -8,11 +8,9 @@ public class ListElement<T>  {
     T value;
     private ListElement<T> Next;
     private ListElement<T> Previous;
-    private int index;
+    //private int index;
 
-    public int getIndex() {
-        return index;
-    }
+
 
     @Override
     public String toString() {
@@ -21,9 +19,7 @@ public class ListElement<T>  {
                 '}';
     }
 
-    public void setIndex(int index) {
-        this.index = index;
-    }
+
 
     public ListElement(T value){
         this.value = value;

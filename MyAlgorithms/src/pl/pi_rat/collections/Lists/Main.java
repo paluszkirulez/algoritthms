@@ -1,22 +1,25 @@
 package pl.pi_rat.collections.Lists;
 
+import java.util.Iterator;
+
 public class Main {
     public static void main(String[] args) {
         ListElement myelement = new ListElement(21);
         ListElement myelement2 = new ListElement(33);
+        ListElement myelement3 = new ListElement(34);
+        ListElement myelement4 = new ListElement(35);
         List myFullList = new List();
         myFullList.add(myelement);
         myFullList.add(myelement2);
-        System.out.println(myFullList.getFirst());
-        System.out.println(myFullList.getFirst().getNext());
-        System.out.println(myFullList.getLast().getPrevious());
+        myFullList.add(myelement3);
+        myFullList.add(myelement4);
 
-        System.out.println(myFullList.get(1));
-        myFullList.remove(1);
-        System.out.println(myFullList.size());
-        System.out.println(myFullList.getFirst());
-        System.out.println(myFullList.get(1));
-        System.out.println(myFullList.getLast());
+        Iterator<Integer> myIterator = myFullList.iterator();
+
+        System.out.println(myFullList.getLast().getPrevious());
+        List mySecondList = myFullList.reverse();
+        mySecondList.getAll();
+        //mySecondList.getAll();
         //ListElement myFullList = new ListElement(myelement);
         //myFullList.add(myelement2);
 

@@ -21,15 +21,18 @@ public class List<T> implements Iterable<T> {
     public ListElement<T> get(int index) {
         ListElement<T> tmpEl = getFirst();
         //System.out.println(getFirst());
-        int localSize = this.size;
-        while(localSize>0){
-            if (tmpEl.getIndex() == index){
-                return tmpEl;
+        int localSize = this.size - 1;
+        ListElement<T> initEl = this.Last;
+        if (index > localSize) {
+            return null;
+        }
+        while (localSize >= 0) {
+            if (localSize == index) {
+                return initEl;
+            } else {
+                initEl = initEl.getPrevious();
             }
-            else{
-                tmpEl = tmpEl.getNext();
-            }
-            localSize = localSize-1;
+            localSize = localSize - 1;
         }
         return null;
 
@@ -37,17 +40,16 @@ public class List<T> implements Iterable<T> {
 
 
     public void add(ListElement<T> element) {
-        if(isEmpty()){
+        if (isEmpty()) {
             this.First = element;
             this.Last = element;
             this.Last.setPrevious(null);
             this.Last.setNext(null);
-        }
-        else {
+        } else {
             this.Last.setNext(element);
             element.setPrevious(this.Last);
             this.Last = element;
-            element.setIndex(this.size);
+
         }
 
         this.size++;
@@ -56,17 +58,17 @@ public class List<T> implements Iterable<T> {
 
     public void remove(int index) {
         ListElement tmpEl = this.get(index);
-        if(tmpEl.getPrevious()!=null && tmpEl.getNext()!=null){
+        if (tmpEl.getPrevious() != null && tmpEl.getNext() != null) {
             tmpEl.getPrevious().setNext(tmpEl.getNext());
             tmpEl.getNext().setPrevious(tmpEl.getPrevious());
-        }
-        else if(tmpEl.getPrevious()==null && tmpEl.getNext()!=null){
+        } else if (tmpEl.getPrevious() == null && tmpEl.getNext() != null) {
             tmpEl.getNext().setPrevious(null);
             this.First = tmpEl.getNext();
-        }
-        else if(tmpEl.getPrevious()!=null && tmpEl.getNext()==null){
+
+        } else if (tmpEl.getPrevious() != null && tmpEl.getNext() == null) {
             tmpEl.getPrevious().setNext(null);
-            this.Last=tmpEl.getPrevious();
+            this.Last = tmpEl.getPrevious();
+
         }
 
         this.size--;
@@ -74,6 +76,21 @@ public class List<T> implements Iterable<T> {
 
     }
 
+    public void getAll() {
+        getNext(this.Last);
+    }
+
+    public ListElement<T> getNext(ListElement<T> nextElement) {
+        if (nextElement.getPrevious() == null) {
+            System.out.println(nextElement);
+            return nextElement;
+        } else {
+            getNext(nextElement.getPrevious());
+            System.out.println(nextElement);
+            return nextElement;
+        }
+
+    }
 
     public int size() {
         return size;
@@ -81,14 +98,46 @@ public class List<T> implements Iterable<T> {
 
 
     public boolean isEmpty() {
-        return size ==0;
+        return size == 0;
     }
-
-
 
 
     @Override
     public Iterator<T> iterator() {
-        return null;
+        return new IteratorListy();
+
+    }
+
+    public List<T> reverse() {
+        List<T> tmpList = new List<T>();
+
+        ListElement<T> intEl = this.Last;
+        ListElement<T> tmp = this.Last;
+        while (tmp != null) {
+
+            tmp = intEl.getPrevious();
+            tmpList.add(intEl);
+            intEl = tmp;
+
+        }
+
+        return tmpList;
+    }
+
+    private class IteratorListy implements Iterator<T> {
+        private ListElement<T> tmpEl = First;
+
+        @Override
+        public boolean hasNext() {
+
+            return tmpEl != null;
+        }
+
+        @Override
+        public T next() {
+            T tmp = tmpEl.value;
+            tmpEl = tmpEl.getNext();
+            return tmp;
+        }
     }
 }
