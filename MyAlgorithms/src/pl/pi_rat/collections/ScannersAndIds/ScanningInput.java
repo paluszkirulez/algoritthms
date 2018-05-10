@@ -10,11 +10,12 @@ public class ScanningInput {
         String myInt = myInput.nextLine();
         myInput.close();
         Pesel myPesel = new Pesel(myInt);
-        System.out.println("Your PESEL is " + myPesel.checkPesel()
+        /*System.out.println("Your PESEL is " + myPesel.checkPesel()
            + " and you are a "+ myPesel.genderCheck()
         );
         System.out.println("Your were born at: " + myPesel.getDate()
-        );
+        );*/
+       // System.out.println(myPesel.getBirthDate().getMonth());
     }
 
 
