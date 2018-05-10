@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a66df18-a86b-45e0-b7aa-70033e1eb0a5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/ScannersAndIds/Pesel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/ScannersAndIds/ScanningInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/List.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/ListElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/ListElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/other/CountDiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/other/CountDiv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/other/MissingInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/other/MissingInteger.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +21,8 @@
       <file leaf-file-name="ListElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/ListElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="361">
+              <caret line="67" column="45" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#337#338#0" expanded="true" />
@@ -41,17 +41,17 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="266">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1490">
-              <caret line="118" column="31" lean-forward="true" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+            <state relative-caret-position="-1356">
+              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
               <folding>
                 <element signature="e#1949#1950#0" expanded="true" />
                 <element signature="e#1983#1984#0" expanded="true" />
@@ -64,14 +64,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Stosy/Stack.java">
+      <file leaf-file-name="ScanningInput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/ScannersAndIds/ScanningInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="225">
+              <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
               <folding>
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pesel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/ScannersAndIds/Pesel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,6 +95,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -133,9 +145,13 @@
         <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Stosy/Main.java" />
         <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/other/MissingInteger.java" />
         <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/other/CountDiv.java" />
-        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/ListElement.java" />
         <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/Main.java" />
+        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/ListElement.java" />
         <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/List.java" />
+        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/ScannersandIds.java" />
+        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/ScannersAndIds/ScanningInput.java" />
+        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/ScannersAndIds/Months.java" />
+        <option value="$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/ScannersAndIds/Pesel.java" />
       </list>
     </option>
   </component>
@@ -215,6 +231,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pi_rat" type="462c0819:PsiDirectoryNode" />
               <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="ScannersAndIds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="MyAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pi_rat" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
               <item name="Stosy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -265,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.ScanningInput">
     <configuration name="CountDiv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.pi_rat.other.CountDiv" />
       <module name="MyAlgorithms" />
@@ -310,19 +335,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.part1.main.lesson3.search.tests" />
+    <configuration name="ScanningInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.pi_rat.collections.ScannersAndIds.ScanningInput" />
       <module name="MyAlgorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.pi_rat.part1.main.lesson3.search.*" />
+          <option name="PATTERN" value="pl.pi_rat.collections.ScannersAndIds.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -363,19 +388,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.tests" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.MissingInteger" />
       <item itemvalue="Application.CountDiv" />
+      <item itemvalue="Application.ScanningInput" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScanningInput" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.CountDiv" />
         <item itemvalue="Application.MissingInteger" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.tests" />
       </list>
     </recent_temporary>
   </component>
@@ -390,12 +415,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524585101461</updated>
       <workItem from="1524585103641" duration="68566000" />
-      <workItem from="1525792339651" duration="24694000" />
+      <workItem from="1525792339651" duration="37661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93260000" />
+    <option name="totallyTimeSpent" value="106227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -430,6 +455,36 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="6" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32888147" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24962178" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.14145234" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39899832" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32888147" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32888147" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -458,11 +513,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/List.java</url>
-          <line>110</line>
+          <line>114</line>
           <properties class="pl.pi_rat.collections.Lists.List" method="reverse">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/ScannersAndIds/Pesel.java</url>
+          <line>49</line>
+          <properties class="pl.pi_rat.collections.ScannersAndIds.Pesel" method="checkPesel">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/part1/main/lesson3/search/tests.java</url>
@@ -471,7 +534,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -649,6 +712,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="1610" selection-start-line="1610" selection-end-line="1610" />
+          <folding>
+            <element signature="e#62916#62917#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -656,6 +722,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="333" selection-start-line="333" selection-end-line="333" />
+          <folding>
+            <element signature="e#11597#11598#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -790,6 +859,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Stosy/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Stosy/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
@@ -801,17 +877,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Stosy/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/ListElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="361">
+          <caret line="67" column="45" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#337#338#0" expanded="true" />
@@ -826,17 +895,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/ScannersandIds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="266">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/ScannersAndIds/Months.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/ScannersAndIds/ScanningInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/Lists/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1490">
-          <caret line="118" column="31" lean-forward="true" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+        <state relative-caret-position="-1356">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
           <folding>
             <element signature="e#1949#1950#0" expanded="true" />
             <element signature="e#1983#1984#0" expanded="true" />
@@ -844,6 +937,16 @@
             <element signature="e#2094#2095#0" expanded="true" />
             <element signature="e#2127#2128#0" expanded="true" />
             <element signature="e#2158#2159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlgorithms/src/pl/pi_rat/collections/ScannersAndIds/Pesel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

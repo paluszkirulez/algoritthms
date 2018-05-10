@@ -58,7 +58,11 @@ public class List<T> implements Iterable<T> {
 
     public void remove(int index) {
         ListElement tmpEl = this.get(index);
-        if (tmpEl.getPrevious() != null && tmpEl.getNext() != null) {
+        if(this.size ==1){
+            this.First = null;
+            this.Last = null;
+        }
+        else if (tmpEl.getPrevious() != null && tmpEl.getNext() != null) {
             tmpEl.getPrevious().setNext(tmpEl.getNext());
             tmpEl.getNext().setPrevious(tmpEl.getPrevious());
         } else if (tmpEl.getPrevious() == null && tmpEl.getNext() != null) {
@@ -139,5 +143,26 @@ public class List<T> implements Iterable<T> {
             tmpEl = tmpEl.getNext();
             return tmp;
         }
+    }
+
+    public List<T> sort(){
+
+        boolean nothingChanged = false;
+        while(!nothingChanged){
+            int myIterator = 0;
+            while(myIterator<this.size-2){
+                ListElement<T> tmpElement = null;
+                if(this.get(myIterator).compareTo(this.get(myIterator+1).value) == 1){
+                    for(int i = myIterator+1;myIterator<=this.size-2;myIterator++){
+                        if(this.get(myIterator).compareTo(this.get(i).value) == 1){
+
+                        }
+                    }
+
+                }
+            }
+        }
+
+        return null;
     }
 }
