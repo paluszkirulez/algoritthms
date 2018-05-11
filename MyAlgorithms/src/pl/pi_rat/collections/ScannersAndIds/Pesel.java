@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 public class Pesel {
     private String PESEL;
-    static Map<Integer,String> myMonths = setMyMonths();
+    static final Map<Integer,String> myMonths = setMyMonths();
     //private LocalDate birthDate;
     private boolean isCorrect;
     private Gender gender;
