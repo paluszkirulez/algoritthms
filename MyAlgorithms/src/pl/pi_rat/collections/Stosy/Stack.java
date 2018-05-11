@@ -8,7 +8,8 @@ public class Stack {
         return size==0;
     }
     void push(StackElement element){
-        if(this.isEmpty()){
+        if(element== null){}
+        else if(this.isEmpty()){
             this.topElement = element;
             this.size++;
         }
@@ -47,14 +48,14 @@ public class Stack {
             StackElement tmpTop = this.topElement;
             this.topElement = this.topElement.previousElement;
             this.previousElement = this.topElement.previousElement;
-            //this.previousElement = this.topElement.previousElement;
-            //System.out.println(size);
+
             this.size--;
             return tmpTop;
-        } else if(this.size ==1){
+         } else if(this.size ==1){
+            StackElement tmpTop = this.topElement;
             this.topElement = null;
             this.size--;
-            return this.topElement;
+            return tmpTop;
 
         }else  {
             return null;
@@ -63,4 +64,66 @@ public class Stack {
     }
 
 
+    Stack reversAdd() {
+        Stack tmpStack = new Stack();
+        int first = 1;
+        while (this.peek() != null) {
+
+            tmpStack.push(this.pop());
+            if (first == 1){
+                tmpStack.peek().previousElement = null;
+                first = first-1;
+            }
+
+        }
+        return tmpStack;
+    }
+
+
+
+
+    Stack sort(){
+        Stack tmpStack = new Stack();
+        Stack tmpStack2 = new Stack();
+        tmpStack.push(this.pop());
+        tmpStack2.push(this.pop());
+        int i = 0;
+        while(i <100){
+            if(tmpStack2.peek() != null && tmpStack.peek().element>tmpStack2.peek().element){
+                tmpStack.push(tmpStack2.pop());
+            }
+            if(this.peek() != null && tmpStack.peek().element>this.peek().element){
+                tmpStack.push(this.pop());
+            }
+            if(tmpStack.peek() != null && this.peek().element>tmpStack.peek().element){
+                this.push(tmpStack.pop());
+            }
+            if(tmpStack2.peek() != null && this.peek().element>tmpStack2.peek().element){
+                this.push(tmpStack2.pop());
+            }
+            if(tmpStack.peek() != null && tmpStack2.peek().element>tmpStack.peek().element){
+                tmpStack2.push(tmpStack.pop());
+            }
+            if(this.peek() != null && tmpStack2.peek().element>this.peek().element){
+                tmpStack2.push(this.pop());
+            }
+            i++;
+            System.out.println(tmpStack);
+            System.out.println(tmpStack2);
+
+
+        }
+
+
+
+
+        return tmpStack;
+    }
+
+    @Override
+    public String toString() {
+        return "Stack{" +
+                "topElement=" + topElement +
+                '}';
+    }
 }
